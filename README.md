@@ -1,20 +1,21 @@
 
 # Task Manager
 
-RESTful API oluşturularak bir task manager uygulaması yapılmıştır.
+A task manager application has been made by creating a RESTful API.
 
-# Teknolojiler
+# Technologies
 
-##### • Node.js
-##### • Express
-##### • MongoDB
-##### • Postman
+• Node.js <br>
+• NPM <br>
+• Express <br>
+• MongoDB <br>
+• Postman 
 
-# Kurulum
+# Installization
 
-Kendi MongoDB hesabınızı yaratıp, bağlantınızı tamamladıktan sonra oluşan URL'nizi, ".env" dosyası içerisindeki DB değişkenine atayıp kaydedin ve projeyi çalıştırın.
+After you create your own MongoDB account and complete your connection, assign and save your URL to the DB variable in the ".env" file and run the project.
 
-# Postman İşlemleri
+# Postman Usage 
 
 ##### GET: http://localhost:3000/api/get_data
 ##### GET by ID: http://localhost:3000/api/get/:id
@@ -22,4 +23,4 @@ Kendi MongoDB hesabınızı yaratıp, bağlantınızı tamamladıktan sonra olu�
 ##### UPDATE (patch) by ID: http://localhost:3000/api/update/:id
 ##### DELETE by ID: http://localhost:3000/api/delete/:id
 ####  
-##### Söz dizimlerine dikkat ediniz.
+##### Pay attention to the syntax.
